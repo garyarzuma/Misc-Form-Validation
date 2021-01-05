@@ -1,0 +1,25 @@
+form {
+  font: 1em sans-serif;
+  max-width: 320px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+  width: 100%;
+  border: 1px solid #333;
+  box-sizing: border-box;
+}
+
+input[name="zip"] {
+  width: 70px;
+}
+
+input:invalid {
+  box-shadow: 0 0 1px 1px red;
+}
+
+input:focus:invalid {
+  box-shadow: none;
+}
